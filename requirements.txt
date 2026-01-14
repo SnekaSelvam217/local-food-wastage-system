@@ -1,0 +1,6 @@
+pandas
+numpy
+streamlit
+sqlite3   # Comes with Python, optional if using MySQL
+matplotlib
+seaborn
