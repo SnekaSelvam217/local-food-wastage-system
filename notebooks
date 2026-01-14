@@ -1,0 +1,27 @@
+data_cleaning.ipynb
+
+Load CSVs: providers_data.csv, receivers_data.csv, food_listings_data.csv, claims_data.csv.
+
+Handle missing values, fix data types, normalize city names and food types.
+
+Merge food_listings with providers for easy analysis.
+
+Save cleaned/merged dataset as merged_food_data.csv.
+
+eda_analysis.ipynb
+
+Load merged data from SQL or CSV.
+
+Run simple SQL queries (using sqlite3 or %sql magic in Jupyter).
+
+Example EDA:
+
+Top providers by total food donated.
+
+Top receivers by claims.
+
+Food availability by city.
+
+Most claimed meal type.
+
+Visualize results with bar charts, pie charts, tables.
